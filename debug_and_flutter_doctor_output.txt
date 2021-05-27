@@ -1,0 +1,73 @@
+Restarted application in 2 869ms.
+
+[38;5;248m════════ Exception caught by widgets library ═══════════════════════════════════[39;49m
+[38;5;244mThe following assertion was thrown while finalizing the widget tree:[39;49m
+Multiple widgets used the same GlobalKey.
+
+[38;5;244mThe key [LabeledGlobalKey<FormState>#ef1bd] was used by 2 widgets[39;49m
+    [38;5;244mForm-[LabeledGlobalKey<FormState>#ef1bd][39;49m
+        [38;5;244mstate: FormState#7ebf0[39;49m
+    [38;5;244mTextFormField-[LabeledGlobalKey<FormState>#ef1bd][39;49m
+        [38;5;244mdependencies: [_InheritedTheme, _FormScope, _LocalizationsScope-[GlobalKey#807bc]][39;49m
+        [38;5;244mstate: _TextFormFieldState#c6d50[39;49m
+[38;5;244mA GlobalKey can only be specified on one widget at a time in the widget tree.[39;49m
+[38;5;244mWhen the exception was thrown, this was the stack[39;49m
+[38;5;244m#0      GlobalKey._debugVerifyIllFatedPopulation.<anonymous closure>[39;49m
+[38;5;244m#1      GlobalKey._debugVerifyIllFatedPopulation[39;49m
+[38;5;244m#2      BuildOwner.finalizeTree.<anonymous closure>[39;49m
+[38;5;244m#3      BuildOwner.finalizeTree[39;49m
+[38;5;244m#4      WidgetsBinding.drawFrame[39;49m
+[38;5;244m...[39;49m
+[38;5;248m════════════════════════════════════════════════════════════════════════════════[39;49m
+
+[38;5;248m════════ Exception caught by widgets library ═══════════════════════════════════[39;49m
+[38;5;244mThe following assertion was thrown while finalizing the widget tree:[39;49m
+Multiple widgets used the same GlobalKey.
+
+[38;5;244mThe key [LabeledGlobalKey<FormState>#ef1bd] was used by multiple widgets. The parents of those widgets were:
+- Column(direction: vertical, mainAxisAlignment: center, crossAxisAlignment: center, renderObject: RenderFlex#7e446 relayoutBoundary=up1)
+- KeyedSubtree-[<[LabeledGlobalKey<FormState>#ef1bd]>]
+A GlobalKey can only be specified on one widget at a time in the widget tree.
+[39;49m[38;5;244mWhen the exception was thrown, this was the stack[39;49m
+[38;5;244m#0      GlobalKey._debugVerifyGlobalKeyReservation.<anonymous closure>.<anonymous closure>.<anonymous closure>[39;49m
+[38;5;244m#1      _LinkedHashMapMixin.forEach (dart:collection-patch/compact_hash.dart:377:8)[39;49m
+[38;5;244m#2      GlobalKey._debugVerifyGlobalKeyReservation.<anonymous closure>.<anonymous closure>[39;49m
+[38;5;244m#3      _LinkedHashMapMixin.forEach (dart:collection-patch/compact_hash.dart:377:8)[39;49m
+[38;5;244m#4      GlobalKey._debugVerifyGlobalKeyReservation.<anonymous closure>[39;49m
+[38;5;244m...[39;49m
+[38;5;248m════════════════════════════════════════════════════════════════════════════════[39;49m
+Reloaded 1 of 529 libraries in 1 637ms.
+
+[38;5;248m════════ Exception caught by widgets library ═══════════════════════════════════[39;49m
+Multiple widgets used the same GlobalKey.
+[38;5;248m════════════════════════════════════════════════════════════════════════════════[39;49m
+
+Flutter Doctor output
+
+[ŌłÜ] Flutter (Channel stable, 1.22.6, on Microsoft Windows [Version 10.0.19042.985], locale et-EE)
+    ŌĆó Flutter version 1.22.6 at c:\flutter
+    ŌĆó Framework revision 9b2d32b605 (4 months ago), 2021-01-22 14:36:39 -0800
+    ŌĆó Engine revision 2f0af37152
+    ŌĆó Dart version 2.10.5
+
+[ŌłÜ] Android toolchain - develop for Android devices (Android SDK version 29.0.3)
+    ŌĆó Android SDK at C:\Users\Pavel\AppData\Local\Android\sdk
+    ŌĆó Platform android-29, build-tools 29.0.3
+    ŌĆó Java binary at: C:\Program Files\Android\Android Studio\jre\bin\java
+    ŌĆó Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b01)
+    ŌĆó All Android licenses accepted.
+
+[ŌłÜ] Android Studio (version 4.0)
+    ŌĆó Android Studio at C:\Program Files\Android\Android Studio
+    ŌĆó Flutter plugin version 47.1.2
+    ŌĆó Dart plugin version 193.7361
+    ŌĆó Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b01)
+
+[ŌłÜ] VS Code (version 1.56.2)
+    ŌĆó VS Code at C:\Users\Pavel\AppData\Local\Programs\Microsoft VS Code
+    ŌĆó Flutter extension version 3.22.0
+
+[ŌłÜ] Connected device (1 available)
+    ŌĆó Android SDK built for x86 (mobile) ŌĆó emulator-5554 ŌĆó android-x86 ŌĆó Android 10 (API 29) (emulator)
+
+ŌĆó No issues found!
